@@ -1,0 +1,47 @@
+/* ----------- */
+/* 全体の設定 */
+/* ----------- */
+html{
+  /* 1rem=10px, 16px=1.6rem */
+  font-size: 62.5%;
+}
+
+body{
+  color:#141414;
+  font-size:1.6rem;
+  line-height:1.5;
+  /* 親の５％の文字間隔→0.7px */
+  letter-spacing: 0.05em;
+  font-family: 
+"Hiragino Kaku Gothic ProN","Helvetica Neue",Arial,"Hiragino Sans",Meiryo,sans-serif;
+ /* スマホを横向きにすると文字サイズが勝手に大きくなることがあるのですが、text-size-adjust: 100%;で指定するとそれを防ぐことができます。 */
+  text-size-adjust: 100%;
+}
+
+.section_wrapper{
+  padding: 100px 15% 0;
+}
+
+img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+
+/* ----------- */
+/* ヘッダー */
+/* ----------- */
+
+
+/* ----------- */
+/* メイン */
+/* ----------- */
+
+
+/* ----------- */
+/* フッター */
+/* ----------- */
+
+/* ----------- */
+/* レスポンシブ*/
+/* ----------- */
