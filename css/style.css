@@ -27,10 +27,24 @@ img{
   vertical-align: bottom;
 }
 
+li{
+  list-style: none;
+}
+
 
 /* ----------- */
 /* ヘッダー */
 /* ----------- */
+
+.fv_wrapper{
+  position: relative;
+}
+
+.fv_title{
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
 
 
 /* ----------- */
